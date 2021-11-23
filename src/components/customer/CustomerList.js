@@ -7,7 +7,7 @@ export const CustomerList = () => {
   useEffect(() => {
     console.log("customerList: useEffect - getCustomers")
     getCustomers()
-  }, [getCustomers])
+  }, [])
 
   return (
     <section className="customers">

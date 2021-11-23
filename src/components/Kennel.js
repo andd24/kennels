@@ -1,10 +1,13 @@
 import React from "react"
-import { LocationList } from "./location/LocationList.js"
+import { NavBar } from "./nav/NavBar"
+import { ApplicationViews } from "./ApplicationViews"
 import "./Kennel.css"
 
 export const Kennel = () => (
     <>
-        <h2>Nashville Kennels</h2>
-        <LocationList />
+        <NavBar />
+        <h1>NSS Kennels</h1>
+        <ApplicationViews />
     </>
 )
+
